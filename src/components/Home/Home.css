@@ -1,6 +1,6 @@
 .home{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 4fr 2fr;
 
 }
 .left{
@@ -25,4 +25,8 @@ color:#1E90FF;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 
+}
+.right{
+    background-color: rgb(250, 250, 250);
+    
 }

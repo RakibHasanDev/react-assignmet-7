@@ -1,0 +1,46 @@
+.person-info {
+    padding: 30px;
+   
+
+}
+
+.top-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.name {
+    margin-left: 15px;
+}
+
+.top-info {
+    display: flex;
+}
+
+.weight-elements {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.weight-elements h3 {
+    margin: 0;
+}
+
+.mesurement {
+    margin-top: 0px;
+}
+
+.all-mesure {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.weight {
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    box-shadow: 1px 1px 4px;
+}

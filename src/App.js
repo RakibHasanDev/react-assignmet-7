@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
   }, []);
   return (
     <div className='body'>
-     <Home></Home>
+      <Home></Home>
+      <Footer></Footer>
 
      
     </div>

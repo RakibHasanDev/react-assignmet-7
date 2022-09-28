@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import logo from '../../Images/1199-gym-01.png'
 import Exercise from '../Exercise/Exercise';
+import Person from '../Person/Person';
 import "./Home.css"
 
 
@@ -29,7 +30,7 @@ const Home = () => {
                         <h1>GYM-ZONE-BD</h1>
                     </div>
                 </div>
-                <h2>Select today’s exercise</h2>
+                <h3>Select today’s exercise</h3>
 
                 <div className='exercise-container'>
                     {
@@ -44,7 +45,7 @@ const Home = () => {
             </div>
 
             <div className='right'>
-                <h1>this is right</h1>
+                <Person></Person>
 
             </div>
         </div>

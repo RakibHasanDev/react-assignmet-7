@@ -10,8 +10,9 @@ const Exercise = ({ exercise }) => {
                 <h4>{name}</h4>
                 <p>{description.slice(0, 50) + '....'}</p>
                 <p>For age: <b>{age}</b> </p>
-                <p>Time</p>
+                <p>Time Required: <b>{time}s</b></p>
             </div>
+            <button className='add-btn'>Add to list</button>
             
         </div>
     );

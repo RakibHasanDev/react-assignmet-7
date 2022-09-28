@@ -1,0 +1,45 @@
+import React from 'react';
+import logo from '../../Images/top-info.png'
+import './PersonInfo.css'
+
+const PersonInfo = () => {
+    return (
+        <div className='person-info'>
+            <div className='person-body'>
+                <div className='top-info'>
+                    <img src={logo} alt="" />
+                    <h4 className='name'>Rakib Hasan</h4>
+                </div>
+                <div className='weight'>
+                    <div className='all-mesure'>
+                        <div>
+                            <div className='weight-elements'>
+                                <h3>68</h3>
+                                <small>kg</small>
+                            </div>
+                            <p className='mesurement'>Weight</p>
+                        </div>
+                        <div>
+                            <div className='weight-elements'>
+                                <h3>5.5</h3>
+                                <small>"</small>
+                            </div>
+                            <p className='mesurement'>height</p>
+                        </div>
+                        <div>
+                            <div className='weight-elements'>
+                                <h3>25</h3>
+                                <small>yrs</small>
+                            </div>
+                            <p className='mesurement'>Age</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default PersonInfo;
