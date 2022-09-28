@@ -14,11 +14,11 @@ const Home = () => {
     useEffect(() => {
         fetch('exercise.json')
             .then(res => res.json())
-        .then(data=>setExercises(data))
+            .then(data => setExercises(data))
     }, [])
 
-console.log(exercises)
-    
+    console.log(exercises)
+
     return (
         <div className='home'>
 
@@ -31,13 +31,15 @@ console.log(exercises)
                 </div>
                 <h2>Select today’s exercise</h2>
 
-                <div exercise-container>
-                    {/* {
-                        exercises.map((exercise)=><Exercise exercise={exercise} ></Exercise>)
-                    } */}
+                <div className='exercise-container'>
+                    {
+                        exercises.map((exercise) => <Exercise
+                            exercise={exercise}
+                        key={exercise.id}></Exercise>)
+                    }
                 </div>
 
-               
+
 
             </div>
 

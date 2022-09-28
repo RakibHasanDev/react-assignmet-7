@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 .App {
   text-align: center;
 }
@@ -37,5 +38,7 @@
   }
 }
 .body{
-  background-color: #E6E6FA;
+  background-color:#add8e69a;
+  font-family: 'Poppins', sans-serif;
+  
 }
