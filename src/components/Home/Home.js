@@ -1,10 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import logo from '../../Images/1199-gym-01.png'
+import Exercise from '../Exercise/Exercise';
 import "./Home.css"
 
-const Home = () => {
 
+
+
+
+const Home = () => {
+    const [exercises, setExercises] = useState([]);
+
+    useEffect(() => {
+        fetch('exercise.json')
+            .then(res => res.json())
+        .then(data=>setExercises(data))
+    }, [])
+
+console.log(exercises)
     
     return (
         <div className='home'>
@@ -16,10 +29,12 @@ const Home = () => {
                         <h1>GYM-ZONE-BD</h1>
                     </div>
                 </div>
-                <h1>Select today’s exercise</h1>
+                <h2>Select today’s exercise</h2>
 
                 <div exercise-container>
-
+                    {/* {
+                        exercises.map((exercise)=><Exercise exercise={exercise} ></Exercise>)
+                    } */}
                 </div>
 
                
