@@ -1,8 +1,3 @@
-.person-info {
-    padding: 30px;
-   
-
-}
 
 .top-info img {
     width: 60px;
@@ -25,7 +20,8 @@
 }
 
 .weight-elements h3 {
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .mesurement {

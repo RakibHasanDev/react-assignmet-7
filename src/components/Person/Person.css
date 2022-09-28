@@ -1,4 +1,34 @@
-.person-section{
+.person-section {
+    margin-top: 30px;
     position: sticky;
-    top: 0;
+    top: 5%;
+    padding: 0 30px;
+  
+}
+
+.person-break {
+    text-align: center;
+    padding: 10px;
+    
+    background-color: #f3f3f3;
+    box-shadow: 1px 1px 4px;
+    border-radius: 5px;
+}
+
+.person-break button {
+    margin-right: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 10px;
+    font-weight: 600;
+    
+}
+.exercise-time{
+    display: flex;
+    justify-content: space-between;
+}
+.break-time{
+    display: flex;
+    justify-content: space-between;
 }
