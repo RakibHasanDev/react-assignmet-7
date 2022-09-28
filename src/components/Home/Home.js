@@ -12,13 +12,27 @@ import "./Home.css"
 const Home = () => {
     const [exercises, setExercises] = useState([]);
 
+    const [seconds, setSeconds] = useState(0);
+    const [breakTime, setBreakTime] = useState(0);
+
     useEffect(() => {
         fetch('exercise.json')
             .then(res => res.json())
             .then(data => setExercises(data))
     }, [])
 
-    console.log(exercises)
+    const addSecondHandler = (time) => {
+        const newSeconds = seconds + time;
+        setSeconds(newSeconds)
+
+    };
+
+    const breakTimeHandler = (time) => {
+        setBreakTime(time);
+
+    }
+    console.log(seconds)
+    console.log(breakTime)
 
     return (
         <div className='home'>
@@ -36,7 +50,10 @@ const Home = () => {
                     {
                         exercises.map((exercise) => <Exercise
                             exercise={exercise}
-                        key={exercise.id}></Exercise>)
+                            key={exercise.id}
+                            addSecondHandler={addSecondHandler}
+
+                        ></Exercise>)
                     }
                 </div>
 
@@ -45,7 +62,11 @@ const Home = () => {
             </div>
 
             <div className='right'>
-                <Person></Person>
+                <Person
+                    seconds={seconds}
+                    breakTimeHandler={breakTimeHandler}
+                    breakTime={breakTime}></Person>
+                    
 
             </div>
         </div>

@@ -27,8 +27,20 @@
 .exercise-time{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .break-time{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.activity-button{
+    border: none;
+    background-color: blue;
+    width: 90%;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    height: 35px;
+    margin-left: 20px;
 }

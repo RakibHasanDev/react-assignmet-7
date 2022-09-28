@@ -2,7 +2,7 @@
 .exercise{
     width: 250px;
     height: 390px;
-    border: 1px solid #F0F8FF;
+    border: 2px solid rgba(175, 174, 174, 0.568);
     border-radius: 5px;
     background-color: #F0FFFF;
     position: relative;

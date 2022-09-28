@@ -1,7 +1,7 @@
 import React from 'react';
 import './Exercise.css'
 
-const Exercise = ({ exercise }) => {
+const Exercise = ({ exercise, addSecondHandler }) => {
     const { name, img, age, description, time } = exercise;
     return (
         <div className='exercise' data-aos="zoom-in">
@@ -12,7 +12,7 @@ const Exercise = ({ exercise }) => {
                 <p>For age: <b>{age}</b> </p>
                 <p>Time Required: <b>{time}s</b></p>
             </div>
-            <button className='add-btn'>Add to list</button>
+            <button className='add-btn' onClick={() => { addSecondHandler(time)}}>Add to list</button>
             
         </div>
     );
