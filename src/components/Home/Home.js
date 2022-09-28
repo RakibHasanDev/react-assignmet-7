@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import logo from '../../Images/1199-gym-01.png'
 import Exercise from '../Exercise/Exercise';
+import { setToLocal } from '../fakedb';
 import Person from '../Person/Person';
 import "./Home.css"
 
@@ -29,10 +30,9 @@ const Home = () => {
 
     const breakTimeHandler = (time) => {
         setBreakTime(time);
+        setToLocal(time);
 
     }
-    console.log(seconds)
-    console.log(breakTime)
 
     return (
         <div className='home'>
