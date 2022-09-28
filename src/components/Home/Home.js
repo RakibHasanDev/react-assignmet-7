@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import logo from '../../Images/1199-gym-01.png'
 import Exercise from '../Exercise/Exercise';
-import { setToLocal } from '../fakedb';
+import { getFromLocal, setToLocal } from '../Utilities/fakedb';
 import Person from '../Person/Person';
 import "./Home.css"
 
@@ -12,7 +12,6 @@ import "./Home.css"
 
 const Home = () => {
     const [exercises, setExercises] = useState([]);
-
     const [seconds, setSeconds] = useState(0);
     const [breakTime, setBreakTime] = useState(0);
 
@@ -20,11 +19,25 @@ const Home = () => {
         fetch('exercise.json')
             .then(res => res.json())
             .then(data => setExercises(data))
-    }, [])
+    }, []);
+
+    useEffect(() => {
+
+        const newTime = getFromLocal()
+        if (newTime) {
+            setBreakTime(newTime)
+        }
+        else {
+            setBreakTime(0)
+        }
+        
+    }, [exercises]);
+
 
     const addSecondHandler = (time) => {
         const newSeconds = seconds + time;
         setSeconds(newSeconds)
+        
 
     };
 
