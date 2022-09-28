@@ -1,0 +1,79 @@
+[
+
+    {
+        "name": "Jumping Jacks",
+        "id": "aa1122",
+        "description": "This exercise targets the whole body. Jumping jacks are the best cardio exercises. There are various benefits of including it in your everyday exercise program. It makes your heart stronger, builds muscles stronger, helps in weight loss, builds stronger bones and uplift your mood instantly and helps relieve stress. It makes you stronger, flexible by improving your stability and stamina.",
+        "age": "20-25",
+        "time": 20,
+        "img": "https://www.focusfitness.net/stock-photos/wp-content/uploads/edd/2017/05/Muscular-Athlete-Doing-Jumping-Jacks-Outdoors.jpg"
+
+    },
+    {
+        "name": "Plank",
+        "id": "aa1133",
+        "description": "It’s the best exercise for rock hard abs. A simple exercise for beginners for stronger abs and to strengthen your shoulder, arms and back. It can be done in many variations.",
+        "age": "20-25",
+        "time": 15,
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184819/shutterstock_420977956-768x512.jpg"
+
+    },
+    {
+        "name": "Cross Crunches",
+        "id": "aa1144",
+        "description": "It’s more effective and easy exercise for abs and the oblique muscles. It strengthens the core and strengthens your abdominal muscles.",
+        "age": "20-25",
+        "time": 22,
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184817/shutterstock_578116237-768x512.jpg"
+
+    },
+    {
+        "name": "Side Plank",
+        "id": "aa1155",
+        "description": "How to do: Start on your side with feet together while keeping forearm below your shoulder. Now slowly raise your hip until your body form straight line from head to feet. Hold on to the position and repeat on the other side too!",
+        "time": 30,
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184816/shutterstock_788852683-768x511.jpg"
+
+    },
+    {
+        "name": "Squats",
+        "id": "aa1166",
+        "description": "It helps you get in better shape when included in daily workout plan. Strengthens lower body muscles for men. It can be done in many variations.",
+        "time": 20,
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184815/shutterstock_390236356-768x511.jpg"
+
+    },
+    {
+        "name": "Push-ups",
+        "id": "aa1177",
+        "description": "How to do: Get down on the ground setting your hands shoulder-width apart. Ensure your body forms a straight line. Begin to lower your body keeping elbows close to your body. Push back to starting high plank position.",
+        "time": 25,
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184812/shutterstock_609502487-768x512.jpg"
+
+    },
+    {
+        "name": "Russian twist",
+        "id": "aa1188",
+        "description": "It’s an effective workout for whole abdomen. It improves body balance and helps you keep in shape.",
+        "time": 18,
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184811/russian-twist-1-768x425.jpg"
+
+    },
+    {
+        "name": "High Knees",
+        "id": "aa1199",
+        "description": "It helps you work on inner thighs and outer hip areas. It’s good belly fat burning exercise too!",
+        "time": 22,
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184810/shutterstock_567668764-768x794.jpg"
+
+    },
+    {
+        "name": "Lunges",
+        "id": "aa1111",
+        "description": "A very good work out on the core that helps you strengthen your lower body and mobility in your hips.",
+        "time": 28,
+        "img": "https://media.gq.com/photos/59fcc9486c531f2c62ea3e9c/4:3/w_1940,h_1455,c_limit/gq-lunge.jpg"
+
+    }
+  
+]
