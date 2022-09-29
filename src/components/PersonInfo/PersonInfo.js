@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../../Images/top-info.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faLocationDot} from '@fortawesome/free-solid-svg-icons'
 import './PersonInfo.css'
 
 const PersonInfo = () => {
@@ -8,7 +10,10 @@ const PersonInfo = () => {
             <div className='person-body'>
                 <div className='top-info'>
                     <img src={logo} alt="" />
-                    <h4 className='name'>Rakib Hasan</h4>
+                    <div>
+                        <h4 className='name'>Rakib Hasan</h4>
+                        <p className='fa-icon'> <span><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon></span> <small>Dhaka, Bangladesh</small> </p>
+                    </div>
                 </div>
                 <div className='weight'>
                     <div className='all-mesure'>

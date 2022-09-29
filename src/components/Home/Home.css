@@ -39,6 +39,7 @@
     border-radius: 8px;
 
 }
+
 @media only screen and (max-width:688px) {
     .home {
         display: flex;
@@ -60,7 +61,7 @@
     .right {
         width: 100%;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 40px;
         padding-bottom: 30px;
         border-radius: 8px;
 
@@ -69,8 +70,16 @@
     .nav-title {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
 
     }
+        .nav-title img {
+            width: 100px;
+            height: 80px;
+            margin: auto;
+    
+        }
 
     .nav-title h1 {
         margin-left: 10px;
@@ -79,7 +88,7 @@
     }
 
     .left {
-        margin: 50px 100px;
+        margin: 60px 100px;
         margin: auto;
 
     }
@@ -89,7 +98,8 @@
     .home {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        overflow-x: hidden;
+      
+        margin-bottom: 50px;
 
 
     }
@@ -113,7 +123,7 @@
         width: 100%;
 
         margin-right: 0px;
-        
+
 
 
 
@@ -131,4 +141,3 @@
 
     }
 }
-

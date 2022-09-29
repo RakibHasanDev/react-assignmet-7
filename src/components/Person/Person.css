@@ -24,6 +24,11 @@
     font-weight: 600;
     
 }
+.person-break button:hover {
+    background-color: blue;
+    color: white;
+
+}
 .exercise-time{
     display: flex;
     justify-content: space-between;
@@ -44,4 +49,7 @@
     height: 35px;
     margin-left: 20px;
    
+}
+.activity-button:hover {
+    background-color: #9933ff;
 }

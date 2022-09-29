@@ -22,8 +22,9 @@ const Question = () => {
                 <p><b>Ans:</b> Some examples of side effects are:
                     <li>Fetching data</li>
                     <li>directly updating the DOM</li>
-                    <li>Timers</li>
-                    The use of "useEffect" without data load are:  without fetching data <b>useEffect</b> directly update the dom and timers.</p>
+                    <li>Run Timers</li>
+                    <li>Trigger animation</li>
+                    The use of "useEffect" without data load are:  without fetching data <b>useEffect</b> directly update the dom,timers and Trigger animation.</p>
                 
             </div>
         </div>

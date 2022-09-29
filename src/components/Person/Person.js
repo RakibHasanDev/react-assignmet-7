@@ -7,7 +7,7 @@ import './Person.css'
 
 const Person = ({ seconds, breakTimeHandler, breakTime }) => {
     
-    const toastHandler = () => toast.success('You are successfully done!', {
+    const toastHandler = () => toast.success('You are successfully done...!', {
         position: "top-left",
         autoClose: 5000,
         hideProgressBar: false,
