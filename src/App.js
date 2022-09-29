@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import Footer from './components/Footer/Footer';
+import Question from './components/Question/Question';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className='body'>
       <Home></Home>
+      <Question></Question>
       <Footer></Footer>
 
      

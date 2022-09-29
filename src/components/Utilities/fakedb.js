@@ -4,7 +4,7 @@ const setToLocal = (seconds) => {
 }
 
 const getFromLocal = () => {
-    const seconds = localStorage.getItem('time');
+    const seconds = parseInt(localStorage.getItem('time'));
     return seconds;
 }
 
@@ -13,4 +13,3 @@ export {
     getFromLocal
 };
 
-getFromLocal();
