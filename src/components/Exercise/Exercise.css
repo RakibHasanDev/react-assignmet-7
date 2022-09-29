@@ -9,6 +9,7 @@
     
 
 }
+
 .exercise img{
     width: 236px;
     height: 150px;
@@ -38,4 +39,23 @@
 }
 .add-btn:hover{
     background-color: #DC143C;
+}
+@media only screen and (max-width:688px){
+    .exercise {
+            width: 350px;
+            height: 430px;
+            border: 2px solid rgba(175, 174, 174, 0.568);
+            border-radius: 5px;
+            background-color: #F0FFFF;
+            position: relative;
+    
+    
+        }
+                .exercise img {
+                    width: 336px;
+                    height: 200px;
+                    padding: 7px;
+                    border-radius: 10px;
+                }
+
 }
