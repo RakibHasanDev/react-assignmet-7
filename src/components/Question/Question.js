@@ -7,9 +7,10 @@ const Question = () => {
     
     return (
         <div className='question-section'>
+             <h2 className='question-title'>Question Section</h2>
             <div>
                 <h3>1. How Does react Work?</h3>
-                <p> <b>Ans:</b> React goes through its virtual DOM ,creates a list of those changes that need to be made to the actual DOM and then does it all in one single process. In fancy words, React does batch updates. So putting all pieces together,</p>
+                <p> <b>Ans:</b> React goes through its virtual DOM ,creates a list of those changes that need to be made to the actual DOM and then does it all in one single process. In fancy words, React does batch updates. So putting all pieces together.</p>
             </div>
             <div>
                 <h3>2. Difference between props and state? </h3>
